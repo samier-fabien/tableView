@@ -1,11 +1,17 @@
 package org.samierfabien.tools;
 
-public class Client {
+public class Customer {
     private String firstName;
     private String lastName;
     private String city;
 
-    public Client(String firstName, String lastName, String city) {
+    /**
+     * Initialise firstName, lastName et city avec les String passés en paramètres.
+     * @param firstName
+     * @param lastName
+     * @param city
+     */
+    public Customer(String firstName, String lastName, String city) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.city = city;
